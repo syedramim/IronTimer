@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+class ExerciseViewModel: ObservableObject {
+    @Published var exercises: Set<Exercise> = []
+    
+    func addExercise(exercise: Exercise) {exercises.insert(exercise)}
+    func deleteExercise(exercise: Exercise) {exercises.remove(exercise)}
+
+}

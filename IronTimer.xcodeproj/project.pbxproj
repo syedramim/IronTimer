@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98865B8E2C8CF167005CDC79 /* ExerciseWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98865B8D2C8CF167005CDC79 /* ExerciseWidget.swift */; };
+		98865B902C8CF269005CDC79 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98865B8F2C8CF269005CDC79 /* Exercise.swift */; };
+		98865B922C8DF4A3005CDC79 /* ExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98865B912C8DF4A3005CDC79 /* ExerciseViewModel.swift */; };
 		98AD26D42C8224980010345A /* IronTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AD26D32C8224980010345A /* IronTimerApp.swift */; };
 		98AD26D62C8224980010345A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AD26D52C8224980010345A /* ContentView.swift */; };
 		98AD26D82C8224990010345A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98AD26D72C8224990010345A /* Assets.xcassets */; };
 		98AD26DB2C82249A0010345A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98AD26DA2C82249A0010345A /* Preview Assets.xcassets */; };
+		98AD26E22C8224AC0010345A /* ExerciseNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AD26E12C8224AC0010345A /* ExerciseNames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98865B8D2C8CF167005CDC79 /* ExerciseWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseWidget.swift; sourceTree = "<group>"; };
+		98865B8F2C8CF269005CDC79 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		98865B912C8DF4A3005CDC79 /* ExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewModel.swift; sourceTree = "<group>"; };
 		98AD26D02C8224980010345A /* IronTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98AD26D32C8224980010345A /* IronTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronTimerApp.swift; sourceTree = "<group>"; };
 		98AD26D52C8224980010345A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98AD26D72C8224990010345A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98AD26DA2C82249A0010345A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98AD26E12C8224AC0010345A /* ExerciseNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseNames.swift; sourceTree = "<group>"; };
+		98AD26E62C8225CB0010345A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +60,15 @@
 		98AD26D22C8224980010345A /* IronTimer */ = {
 			isa = PBXGroup;
 			children = (
+				98865B8F2C8CF269005CDC79 /* Exercise.swift */,
+				98865B8D2C8CF167005CDC79 /* ExerciseWidget.swift */,
+				98AD26E62C8225CB0010345A /* Info.plist */,
+				98AD26E12C8224AC0010345A /* ExerciseNames.swift */,
 				98AD26D32C8224980010345A /* IronTimerApp.swift */,
 				98AD26D52C8224980010345A /* ContentView.swift */,
 				98AD26D72C8224990010345A /* Assets.xcassets */,
 				98AD26D92C82249A0010345A /* Preview Content */,
+				98865B912C8DF4A3005CDC79 /* ExerciseViewModel.swift */,
 			);
 			path = IronTimer;
 			sourceTree = "<group>";
@@ -137,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98865B922C8DF4A3005CDC79 /* ExerciseViewModel.swift in Sources */,
+				98865B902C8CF269005CDC79 /* Exercise.swift in Sources */,
 				98AD26D62C8224980010345A /* ContentView.swift in Sources */,
+				98AD26E22C8224AC0010345A /* ExerciseNames.swift in Sources */,
 				98AD26D42C8224980010345A /* IronTimerApp.swift in Sources */,
+				98865B8E2C8CF167005CDC79 /* ExerciseWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +293,7 @@
 				DEVELOPMENT_TEAM = 58DF73FN4T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IronTimer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +323,7 @@
 				DEVELOPMENT_TEAM = 58DF73FN4T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IronTimer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
